@@ -1,12 +1,3 @@
-# File I/O Example
-Here is an example method that uses `BufferedReader` and a `try`-`finally` block to read the contents of a file line-by-line, outputting to the console. The output ends when we reach the `null` character, indicating the end of the file.
-
-See [`Main.java`](src/fileIODemo/Main.java) in in the folder `src/fileIODemo`.
-
-In this example, we close the file we attempted to open, regardless of success or `IOException` error.
-
-### Example
-```java
 package fileIODemo;
 
 import java.io.BufferedReader;
@@ -37,4 +28,3 @@ public class Main {
         }
     }
 }
-```
